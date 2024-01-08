@@ -1,0 +1,2 @@
+pub const PORT_REGISTER_START: u16 = 0xff00u16;
+pub const PROGRAM_COUNTER_START: u16 = 0x0000u16;
