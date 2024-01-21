@@ -1,4 +1,9 @@
-use crate::{Emulator, instruction::{Instruction, OpResult}, opcode::Opcode, flag::Flag};
+use crate::{
+    emulator::Emulator,
+    flag::Flag,
+    instruction::{Instruction, OpResult},
+    opcode::Opcode,
+};
 
 fn bit(value: u8, bit_index: usize) -> bool {
     let mask = 0x01u8 << bit_index;

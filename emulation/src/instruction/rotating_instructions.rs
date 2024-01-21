@@ -1,4 +1,9 @@
-use crate::{emulator::Emulator, instruction::{Instruction, OpResult}, flag::Flag, opcode::Opcode};
+use crate::{
+    emulator::Emulator,
+    flag::Flag,
+    instruction::{Instruction, OpResult},
+    opcode::Opcode,
+};
 
 fn set_rotation_flags(emulator: &mut Emulator, value: u8) {
     emulator.set_flag(Flag::H, false);

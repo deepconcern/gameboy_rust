@@ -1,6 +1,7 @@
 use crate::{
     emulator::Emulator,
-    instruction::{Instruction, OpResult}, opcode::Opcode,
+    instruction::{Instruction, OpResult},
+    opcode::Opcode,
 };
 
 /// JP (HL)

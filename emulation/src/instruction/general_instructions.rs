@@ -1,6 +1,8 @@
-use crate::emulator::{Emulator, EmulationState};
-use crate::flag::Flag;
-use crate::instruction::{Instruction, OpResult};
+use crate::{
+    emulator::{EmulationState, Emulator},
+    flag::Flag,
+    instruction::{Instruction, OpResult},
+};
 
 /// CPL A
 /// 

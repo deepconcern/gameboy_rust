@@ -1,4 +1,8 @@
-use crate::{emulator::Emulator, instruction::{general_instructions::ei, Instruction, OpResult}, opcode::Opcode};
+use crate::{
+    emulator::Emulator,
+    instruction::{general_instructions::ei, Instruction, OpResult},
+    opcode::Opcode,
+};
 
 fn store_program_counter(emulator: &mut Emulator) -> OpResult {
     let [low_value, high_value] = emulator.program_counter().to_le_bytes();

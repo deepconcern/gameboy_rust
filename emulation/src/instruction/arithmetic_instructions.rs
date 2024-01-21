@@ -1,8 +1,8 @@
-use crate::emulator::Emulator;
-use crate::instruction::OpResult;
-use crate::opcode::Opcode;
-
-use super::instruction::Instruction;
+use crate::{
+    emulator::Emulator,
+    instruction::{Instruction, OpResult},
+    opcode::Opcode,
+};
 
 /// ADD A, (HL)
 ///

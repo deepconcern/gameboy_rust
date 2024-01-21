@@ -1,10 +1,10 @@
-use crate::addresses::PORT_REGISTER_START;
-use crate::emulator::Emulator;
-use crate::instruction::OpResult;
-use crate::opcode::Opcode;
-use crate::register::{Register, RegisterPair};
-
-use super::Instruction;
+use crate::{
+    addresses::PORT_REGISTER_START,
+    emulator::Emulator,
+    instruction::{Instruction, OpResult},
+    opcode::Opcode,
+    register::{Register, RegisterPair},
+};
 
 /// LD (BC), A
 /// 

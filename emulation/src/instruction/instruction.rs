@@ -1,8 +1,10 @@
 use std::fmt::Display;
 
-use crate::emulator::Emulator;
-use crate::memory_component::MemoryError;
-use crate::opcode::{OpcodeError, OpcodePattern};
+use crate::{
+    emulator::Emulator,
+    memory_component::MemoryError,
+    opcode::{OpcodeError, OpcodePattern},
+};
 
 #[derive(Clone, Debug)]
 pub enum OpError {
